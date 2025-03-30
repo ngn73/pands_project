@@ -21,7 +21,7 @@ The dataset was originally created by British mathematician Ronald Fisher in his
 > The use of multiple measurements in taxonomic problems  
 https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1936.tb02137.x
 
-  In order to get underway the analysis on this dataset and start this project, it is assumed that I have no prior knowledge of this dataset (_While I have encountered this dataset in other coursework modules this semester_).
+  
 
   The CSV file containing the datset can be downloaded from the UC Irvine Machine Learning Repository:
   https://archive.ics.uci.edu/dataset/53/iris  
@@ -37,4 +37,4 @@ iris = datasets.load_iris()
 ***
 ### The several stages of analysis for this dataset are organized into a series of jupyter notebooks: 
 
-[Stage 1 : Opening new dataset ](exploring_the_iris_dataset_1.ipynb)
+[Stage 1 : First look at new dataset ](exploring_the_iris_dataset_1.ipynb)
