@@ -10,7 +10,7 @@ This a file repository for the final project in module 4122 : programming and sc
 # Project Description:  
 ## Exploring the Iris dataset  
    
-![alt text](iris-machinelearning.png)
+![alt text](images\iris-machinelearning.png)
   
 https://en.wikipedia.org/wiki/Iris_flower_data_set  
 https://archive.ics.uci.edu/dataset/53/iris
@@ -37,4 +37,13 @@ iris = datasets.load_iris()
 ***
 ### The several stages of analysis for this dataset are organized into a series of jupyter notebooks: 
 
-[Stage 1 : First look at new dataset ](exploring_the_iris_dataset_1.ipynb)
+[**Stage 1** : First look at new dataset ](notebooks/exploring_the_iris_dataset_1.ipynb)   
+Opening up dataset for first time. Reviewing the raw data, the different approaches for extracting this data, and managing the different Data types within returned objects  
+[(Extra) : Code Exploring the various approaches to reading data in iris dataset ](code/iterable_collections.py)  
+
+[**Stage 2** : Statistical Summary of data values ](notebooks/iris_statistical_summary.ipynb)   
+Exploring a statistical summary of each of iris dataset's fields/features independently  
+Sending results to a markdown formatted **jupyter notebook** for a structured/presentable format  
+[Code generating statistical results for iris dataset and outputting to notepad ](code/iris_stats_summary.py)   
+[Notebook for Statistical Analysis on Iris Dataset](notebooks/iris_summary.ipynb)   
+[Notebook for Statistical Analysis on Daily Gold Rate (across currencies) Dataset](notebooks/gold_rates_summary.ipynb)   
