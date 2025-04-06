@@ -10,7 +10,7 @@ This a file repository for the final project in module 4122 : programming and sc
 # Project Description:  
 ## Exploring the Iris dataset  
    
-![alt text](images\iris-machinelearning.png)
+![alt text](images/iris-machinelearning.png)
   
 https://en.wikipedia.org/wiki/Iris_flower_data_set  
 https://archive.ics.uci.edu/dataset/53/iris
