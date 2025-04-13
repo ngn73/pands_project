@@ -41,9 +41,32 @@ iris = datasets.load_iris()
 Opening up dataset for first time. Reviewing the raw data, the different approaches for extracting this data, and managing the different Data types within returned objects  
 [(Extra) : Code Exploring the various approaches to reading data in iris dataset ](code/iterable_collections.py)  
 
-[**Stage 2** : Statistical Summary of data values ](notebooks/iris_statistical_summary.ipynb)   
+**<font color = 'dodgerblue'>Stage 2** : Cleaning the dataset</font>   
+This step **was not necessary** with a small dataset such as the Iris dataset.
+* There is no Null or Missing Data (NaN values)
+* Outlier data is very limited (and does not distort data results)
+* Data types are consistent across columns
+* There is no duplication of data   
+* All data is valid and there is no erroneous data   
+
+ref: https://www.datacamp.com/tutorial/guide-to-data-cleaning-in-python
+
+[**Stage 3** : Statistical Summary of data values ](notebooks/iris_statistical_summary.ipynb)   
 Exploring a statistical summary of each of iris dataset's fields/features independently  
 Sending results to a markdown formatted **jupyter notebook** for a structured/presentable format  
+[Custom Module for Statistical Analysis](code/stats_util.py)   
 [Code generating statistical results for iris dataset and outputting to notepad ](code/iris_stats_summary.py)   
 [Notebook for Statistical Analysis on Iris Dataset](notebooks/iris_summary.ipynb)   
 [Notebook for Statistical Analysis on Daily Gold Rate (across currencies) Dataset](notebooks/gold_rates_summary.ipynb)   
+
+[**Stage 4** : Distribution Visualization of data values ](notebooks/visualizing_distributions.ipynb)   
+Exploring a statistical summary of each of iris dataset's fields/features independently  
+Sending results to a markdown formatted **jupyter notebook** for a structured/presentable format  
+[Python Script for Statistical Analysis](code/distrbution_analysis.py)    
+[Notebook for Exploring the Matplotlib ploting features](notebooks/exploring_matplotlib_layouts.ipynb)   
+[Notebook for Exploring visual plots of Iris features](notebooks/visualizing_distributions.ipynb)   
+Exploring the characteristics of Iris features further with the use of visual plots:  
+ * Histograms  
+ * Boxplots
+ * Text Boxes
+
