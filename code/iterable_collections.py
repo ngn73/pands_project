@@ -2,6 +2,7 @@
 Author: Niall Naughton
 Date: 05/04/2025
 
+-----------------------------------------
 Description:
 Just experimenting with the use of the various collections or iterable datatypes to read the Iris dataset
 * numpy arrays
@@ -10,11 +11,11 @@ Just experimenting with the use of the various collections or iterable datatypes
 * dataFrames
 * dictionaries
 * lists
+-----------------------------------------
 
-** 
 This does not further analyse the Iris dataset ... 
 it is simply an exploration in how to use python and its extended modules to access this Iris dataset
-**
+
 '''
 
 #load required modules

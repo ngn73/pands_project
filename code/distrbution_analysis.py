@@ -1,13 +1,13 @@
 '''
 Author: Niall Naughton
 Date: 13/04/2025
-
+-------------------------------------------------------------------------
 Description:
 A program that generates visual plots of
 * Histograms
 * Boxplots
 ... for all iris features and all species
-
+-------------------------------------------------------------------------
 a full record of my exploration of matplotlib and my approach to this task is recorded in notebooks : 
 * visualizing_distributions.ipynb
 * exploring_matplotlib_layouts.ipynb

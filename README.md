@@ -35,21 +35,14 @@ iris = datasets.load_iris()
 ```
 
 ***
-### The several stages of analysis for this dataset are organized into a series of jupyter notebooks: 
+### <font color = 'crimson'>The several stages of analysis for this dataset are organized into a series of jupyter notebooks: </font>
 
 [**Stage 1** : First look at new dataset ](notebooks/exploring_the_iris_dataset_1.ipynb)   
 Opening up dataset for first time. Reviewing the raw data, the different approaches for extracting this data, and managing the different Data types within returned objects  
 [(Extra) : Code Exploring the various approaches to reading data in iris dataset ](code/iterable_collections.py)  
 
-**<font color = 'dodgerblue'>Stage 2** : Cleaning the dataset</font>   
-This step **was not necessary** with a small dataset such as the Iris dataset.
-* There is no Null or Missing Data (NaN values)
-* Outlier data is very limited (and does not distort data results)
-* Data types are consistent across columns
-* There is no duplication of data   
-* All data is valid and there is no erroneous data   
-
-ref: https://www.datacamp.com/tutorial/guide-to-data-cleaning-in-python
+[**Stage 2** : Cleaning the dataset ](notebooks/cleansing_dataset.ipynb)   
+Exploring the quality of the data, and the necessity for data cleansing.
 
 [**Stage 3** : Statistical Summary of data values ](notebooks/iris_statistical_summary.ipynb)   
 Exploring a statistical summary of each of iris dataset's fields/features independently  
@@ -60,13 +53,28 @@ Sending results to a markdown formatted **jupyter notebook** for a structured/pr
 [Notebook for Statistical Analysis on Daily Gold Rate (across currencies) Dataset](notebooks/gold_rates_summary.ipynb)   
 
 [**Stage 4** : Distribution Visualization of data values ](notebooks/visualizing_distributions.ipynb)   
-Exploring a statistical summary of each of iris dataset's fields/features independently  
-Sending results to a markdown formatted **jupyter notebook** for a structured/presentable format  
-[Python Script for Statistical Analysis](code/distrbution_analysis.py)    
+Exploring the characteristics of Iris features further with the use of visual plots   
 [Notebook for Exploring the Matplotlib ploting features](notebooks/exploring_matplotlib_layouts.ipynb)   
 [Notebook for Exploring visual plots of Iris features](notebooks/visualizing_distributions.ipynb)   
-Exploring the characteristics of Iris features further with the use of visual plots:  
+Visual plots generated include:  
  * Histograms  
  * Boxplots
- * Text Boxes
+ * Text Boxes (additional annotation)
 
+
+[**Stage 5** : Visualization of Feature Relationships ](notebooks/exploring_feature_relationships.ipynb)   
+The Iris features (Sepal length/width (cm) and petal length/width) are not entirely independent of each other, and we now need to explore any possible relationship between these features.   
+Relationships between features could be ...   
+* Linear
+* Non-linear
+* non-deterministic
+
+We will use scatter plots to try and visually identify any potential relationships (linear/non-linear/etc.) between all the combinations of features available in the Iris dataset.  
+[Notebook for Exploring the Matplotlib Scatter plot features](notebooks/exploring_matplotlib_scatterplots.ipynb)   
+The Python Script for this stage looks at displaying scatterplots/Histograms for all combinations of Iris Feature Pairs.  
+It is a very cluttered and Visually dense, but this is an coding exercise in managing large a matrix of data.  This plots 16 different plots, each color-coded by 3 class, and each plot is in itself a 4x4 grid. Its a messy, but from a coding perspective it did the job!   
+[Code for displaying scatterplots/Histograms for all combinations of Iris Feature Pairs](code/Relationship_analysis.py)  
+In the next stage (which has very similar plots) ... I will address plotting a much neater set of visualizations.
+
+[**Stage 6** : Quantify Patterns of Feature Relationships ](notebooks/quantify_relationship_analysis.ipynb)   
+Taking the last set of plots, from stage #5 where I generated a grid of scatter/histo plots for each combination of features within the Iris dataset, I will apply a linear regression line to each plot to further review the linear correlation between feature pairs
