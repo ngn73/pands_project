@@ -6,11 +6,9 @@ Description:
 Display Scatter plots and polyfit linear regression lines for all 16 Iris feature combinations    
 
 ********************************************************************************************************
-
 * Plotting tasks must be broken down into a series of manageable sub-tasks (functions)  
 * Iterating thru Data must be carefully managed (splicing/filtering data and how data subsets are passed around to each script function)
 * Plot a histogram at each grid position where feature pairs match
-
 '''
 
 
@@ -63,13 +61,21 @@ def generateHisto(feature:int, ax, ispecies):
 def generateScatter(feature1:int, feature2:int,ax, ispecies):
     f1 = df_iris.columns[feature1]
     f2 = df_iris.columns[feature2]
+    coefficients = np.polyfit((df_iris[df_iris['variety'] == ispecies][f1]), (df_iris[df_iris['variety'] == ispecies][f2]), 1)
+    polynomial = np.poly1d(coefficients)
+    x_fit = np.linspace(min(df_iris[df_iris['variety'] == ispecies][f1]), max(df_iris[df_iris['variety'] == ispecies][f1]), 2)
+    y_fit = polynomial(x_fit)
+
     ax.scatter(df_iris[df_iris['variety'] == ispecies][f1],  # Filter feature data by species(x-axis)
                     df_iris[df_iris['variety'] == ispecies][f2],  # Filter feature data by species(y-axis)
                     c=colors[ispecies],  # Color for the species
                     label=ispecies,  # Label for the species
                     alpha=0.7,  # Set transparency
-                    marker = '.',  # large marker
+                    marker = 'o',  # large marker
                     s=30)  # Size of the points
+    
+    # Plot the polynomial fit line
+    ax.plot(x_fit, y_fit, color=colors[ispecies], label='Polynomial fit line')
     ax.set_xlabel(f1)
     ax.set_ylabel(f2)
     ax.legend() 
@@ -109,5 +115,4 @@ for x in range(4):
     for y in range(4):
         generateGridPlotAtPos(x,y)
 plt.tight_layout()
-
 plt.show()
