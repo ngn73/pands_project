@@ -35,7 +35,8 @@ iris = datasets.load_iris()
 ```
 
 ***
-### <font color = 'crimson'>The several stages of analysis for this dataset are organized into a series of jupyter notebooks: </font>
+### <font color = 'crimson'>The several stages of analysis for this dataset are organized into a series of jupyter notebooks: </font>  
+Each stage ends with some form of python script that addresses the topics of analysis stage.
 
 [**Stage 1** : First look at new dataset ](notebooks/exploring_the_iris_dataset_1.ipynb)   
 Opening up dataset for first time. Reviewing the raw data, the different approaches for extracting this data, and managing the different Data types within returned objects  
@@ -77,4 +78,20 @@ It is a very cluttered and Visually dense, but this is an coding exercise in man
 In the next stage (which has very similar plots) ... I will address plotting a much neater set of visualizations.
 
 [**Stage 6** : Quantify Patterns of Feature Relationships ](notebooks/quantify_relationship_analysis.ipynb)   
-Taking the last set of plots, from stage #5 where I generated a grid of scatter/histo plots for each combination of features within the Iris dataset, I will apply a linear regression line to each plot to further review the linear correlation between feature pairs
+Taking the last set of plots, from stage #5 where I generated a grid of scatter/histo plots for each combination of features within the Iris dataset, I will apply a linear regression line to each plot to further review the linear correlation between feature pairs  
+[Updated scatterplots/Histograms for all combinations of Iris Feature Pairs](code/Relationship_analysis_2.py)  
+In the next stage (which has very similar plots) ... I will address plotting a much neater set of visualizations.
+
+[**Final Application** : Python GUI Application for Analyzing different datasets ](code/final_stage_app/Documentation/final_stage_app.ipynb)   
+
+As a final submission for this course Project, I decided to take on the challenge of generating ...
+* A Python GUI Application
+* That can load different datasets (from CSV files) 
+* Give the App User the option to select the attribute (of the chosen dataset) 
+* Allow the user to select the type of plot visualization required (Stats, Histograms, Boxplots)
+* Output results (if multiple plots required) into a singe Jupyter Notebook
+* Implement Application configuration and Logging for GUI Form
+   
+
+![alt text](images/gui_app.png)
+

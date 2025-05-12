@@ -86,7 +86,7 @@ colors = {'Setosa':'red', 'Versicolor':'green', 'Virginica':'blue'}  # Color for
 iris_species = ('Setosa', 'Versicolor', 'Virginica') #unchangeable tuple
 
 # Set up the grid layout 
-fig = plt.figure(figsize=(30, 30), facecolor = 'ivory')
+fig = plt.figure(figsize=(30, 60), facecolor = 'ivory')
 fig.suptitle("Scatter plots and Histograms\n of sepal length and sepal length features\n\n\n", fontweight="bold")
 gs = gridspec.GridSpec(16, 16)
 for x in range(4):
