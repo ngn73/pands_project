@@ -168,7 +168,7 @@ class dataForm:     #Define form as a Class, so you can control access to variou
         if((self.csv_data_filename is not None) and (self.csv_data_file is not None) and (self.data_attribute is not None)):
             print(f"Attribute {self.data_attribute} of dataset {self.csv_data_filename} selected")
             mylogger.logInfoMessage(f"Generating Histo for: {self.data_attribute} attribute")
-            myplot = pt.plots(self.csv_data_filename, self.csv_data_file, useStats=self.check_stats, useHisto=self.check_histo, useBoxPlot=self.check_boxplot)
+            myplot = pt.plots(self.csv_data_filename, self.csv_data_file, useStats=self.check_stats.get(), useHisto=self.check_histo.get(), useBoxPlot=self.check_boxplot.get())
             myplot.generateNotebook(self.getNotebookFileName(), self.data_attribute)
 
     #generate filename and full path of jupyter notebook

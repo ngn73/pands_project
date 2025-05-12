@@ -56,6 +56,27 @@ class app_config:
             }
         return histo_settings
     
+    def getBoxplotSettings(self):
+        #Settings for plotting Boxplot
+        boxplot_facecolor = self.config.get('Boxplot', 'facecolor')
+        boxplot_color = self.config.get('Boxplot', 'color')
+        boxplot_whisker_color = self.config.get('Boxplot', 'whisker_color')
+        boxplot_flier_facecolor = self.config.get('Boxplot', 'flier_facecolor')
+        boxplot_flier_marker = self.config.get('Boxplot', 'flier_marker')
+        boxplot_flier_markersize = int(self.config.get('Boxplot', 'flier_markersize'))
+        boxplot_median_color = self.config.get('Boxplot', 'median_color')
+        
+        boxplot_settings = {
+            'facecolor': boxplot_facecolor,
+            'color' :  boxplot_color,
+            'whisker_color' : boxplot_whisker_color,
+            'flier_facecolor' :  boxplot_flier_facecolor,
+            'flier_marker' :  boxplot_flier_marker,
+            'flier_markersize' : boxplot_flier_markersize,
+            'median_color' : boxplot_median_color
+            }
+        return boxplot_settings        
+    
     def getFormSettings(self):
         #Settings for Form Text
         form_header = self.config.get('General', 'form_header').replace("\\n", "\n")

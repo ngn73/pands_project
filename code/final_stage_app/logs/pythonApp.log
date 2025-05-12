@@ -460,3 +460,99 @@
 2025-05-11 22:18:22,314-__main__-INFO:Loaded Dataset file penguins.csv
 2025-05-12 01:26:43,323-__main__-INFO:Starting GUI App
 2025-05-12 01:27:10,855-__main__-INFO:Loaded Dataset file Housing.csv
+2025-05-12 09:11:57,326-__main__-INFO:Starting GUI App
+2025-05-12 09:12:04,178-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:12:10,614-__main__-INFO:Generating Histo for: petal.length attribute
+2025-05-12 09:12:10,615-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:12:10,650-plots-INFO:Creating Markdown Cell for of Statistical Summary.
+2025-05-12 09:12:10,653-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:12:10,653-plots-INFO:Staring Histo Plot of petal.length.
+2025-05-12 09:12:10,935-plots-INFO:Completed Histo Plot of petal.length as return as utf-8 buffer.
+2025-05-12 09:12:10,936-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:12:10,936-plots-INFO:Staring Histo Plot of petal.length.
+2025-05-12 09:12:11,203-plots-INFO:Completed Histo Plot of petal.length as return as utf-8 buffer.
+2025-05-12 09:16:26,383-__main__-INFO:Starting GUI App
+2025-05-12 09:16:31,378-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:16:35,934-__main__-INFO:Generating Histo for: petal.length attribute
+2025-05-12 09:16:35,935-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:16:35,969-plots-INFO:Creating Markdown Cell for of Statistical Summary.
+2025-05-12 09:16:35,971-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:17:30,484-__main__-INFO:Starting GUI App
+2025-05-12 09:17:36,226-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:17:41,405-__main__-INFO:Generating Histo for: petal.length attribute
+2025-05-12 09:17:41,406-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:17:41,440-plots-INFO:Creating Markdown Cell for of Statistical Summary.
+2025-05-12 09:17:41,442-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:17:41,442-plots-INFO:Staring Histo Plot of petal.length.
+2025-05-12 09:17:41,712-plots-INFO:Completed Histo Plot of petal.length as return as utf-8 buffer.
+2025-05-12 09:17:41,713-plots-INFO:Creating Markdown Cell for of Boxplot Image.
+2025-05-12 09:17:41,713-plots-INFO:Staring Boxplot Plot of petal.length.
+2025-05-12 09:17:41,814-plots-ERROR:An unexpected error occurred: No option 'flier_markersizemarker' in section: 'Boxplot'
+2025-05-12 09:21:09,596-__main__-INFO:Starting GUI App
+2025-05-12 09:21:14,202-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:21:18,213-__main__-INFO:Generating Histo for: petal.width attribute
+2025-05-12 09:21:18,214-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:21:18,248-plots-INFO:Creating Markdown Cell for of Statistical Summary.
+2025-05-12 09:21:18,250-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:21:18,250-plots-INFO:Staring Histo Plot of petal.width.
+2025-05-12 09:21:18,511-plots-INFO:Completed Histo Plot of petal.width as return as utf-8 buffer.
+2025-05-12 09:21:18,511-plots-INFO:Creating Markdown Cell for of Boxplot Image.
+2025-05-12 09:21:18,511-plots-INFO:Staring Boxplot Plot of petal.width.
+2025-05-12 09:21:18,618-plots-ERROR:An unexpected error occurred: No option 'flier_markersizemarker' in section: 'Boxplot'
+2025-05-12 09:24:01,537-__main__-INFO:Starting GUI App
+2025-05-12 09:24:06,569-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:24:16,334-__main__-INFO:Generating Histo for: petal.length attribute
+2025-05-12 09:28:19,843-__main__-INFO:Starting GUI App
+2025-05-12 09:28:25,320-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:28:32,197-__main__-INFO:Generating Histo for: petal.width attribute
+2025-05-12 09:30:31,146-__main__-INFO:Starting GUI App
+2025-05-12 09:30:37,539-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:30:41,622-__main__-INFO:Generating Histo for: petal.width attribute
+2025-05-12 09:30:41,623-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:30:41,656-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:30:41,656-plots-INFO:Staring Histo Plot of petal.width.
+2025-05-12 09:30:41,917-plots-INFO:Completed Histo Plot of petal.width as return as utf-8 buffer.
+2025-05-12 09:31:14,762-__main__-INFO:Starting GUI App
+2025-05-12 09:31:24,290-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:31:33,581-__main__-INFO:Generating Histo for: petal.width attribute
+2025-05-12 09:31:33,582-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:31:33,617-plots-INFO:Creating Markdown Cell for of Statistical Summary.
+2025-05-12 09:31:33,619-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:31:33,619-plots-INFO:Staring Histo Plot of petal.width.
+2025-05-12 09:31:33,885-plots-INFO:Completed Histo Plot of petal.width as return as utf-8 buffer.
+2025-05-12 09:31:58,859-__main__-INFO:Starting GUI App
+2025-05-12 09:32:03,601-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:32:07,925-__main__-INFO:Generating Histo for: petal.length attribute
+2025-05-12 09:32:07,926-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:32:07,960-plots-INFO:Creating Markdown Cell for of Boxplot Image.
+2025-05-12 09:32:07,961-plots-INFO:Staring Boxplot Plot of petal.length.
+2025-05-12 09:32:08,055-plots-ERROR:An unexpected error occurred: No option 'flier_markersizemarker' in section: 'Boxplot'
+2025-05-12 09:36:44,245-__main__-INFO:Starting GUI App
+2025-05-12 09:36:49,914-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:36:53,486-__main__-INFO:Generating Histo for: petal.width attribute
+2025-05-12 09:36:53,487-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:36:53,520-plots-INFO:Creating Markdown Cell for of Boxplot Image.
+2025-05-12 09:36:53,520-plots-INFO:Staring Boxplot Plot of petal.width.
+2025-05-12 09:36:53,733-plots-INFO:Completed Boxplot Plot of petal.width as returned as utf-8 buffer.
+2025-05-12 09:37:31,819-__main__-INFO:Starting GUI App
+2025-05-12 09:37:35,794-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:37:39,758-__main__-INFO:Generating Histo for: petal.length attribute
+2025-05-12 09:37:39,759-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:37:39,792-plots-INFO:Creating Markdown Cell for of Statistical Summary.
+2025-05-12 09:37:39,794-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:37:39,794-plots-INFO:Staring Histo Plot of petal.length.
+2025-05-12 09:37:40,062-plots-INFO:Completed Histo Plot of petal.length as return as utf-8 buffer.
+2025-05-12 09:37:40,063-plots-INFO:Creating Markdown Cell for of Boxplot Image.
+2025-05-12 09:37:40,063-plots-INFO:Staring Boxplot Plot of petal.length.
+2025-05-12 09:37:40,278-plots-INFO:Completed Boxplot Plot of petal.length as returned as utf-8 buffer.
+2025-05-12 09:44:32,773-__main__-INFO:Starting GUI App
+2025-05-12 09:44:38,202-__main__-INFO:Loaded Dataset file iris.csv
+2025-05-12 09:44:42,045-__main__-INFO:Generating Histo for: petal.width attribute
+2025-05-12 09:44:42,047-plots-INFO:Staring Create a new notebook object.
+2025-05-12 09:44:42,080-plots-INFO:Creating Markdown Cell for of Statistical Summary.
+2025-05-12 09:44:42,082-plots-INFO:Creating Markdown Cell for of Histogram Image.
+2025-05-12 09:44:42,082-plots-INFO:Staring Histo Plot of petal.width.
+2025-05-12 09:44:42,365-plots-INFO:Completed Histo Plot of petal.width as return as utf-8 buffer.
+2025-05-12 09:44:42,366-plots-INFO:Creating Markdown Cell for of Boxplot Image.
+2025-05-12 09:44:42,366-plots-INFO:Staring Boxplot Plot of petal.width.
+2025-05-12 09:44:42,590-plots-INFO:Completed Boxplot Plot of petal.width as returned as utf-8 buffer.
